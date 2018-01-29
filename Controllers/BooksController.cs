@@ -1,0 +1,24 @@
+using System;
+using System.Collections.Generic;
+using System.Diagnostics;
+using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc;
+
+namespace Fisher.Bookstore.Controllers
+{
+    public class BooksController : Controller
+    {
+        public IActionResult index()
+        {
+            return Content("This is the books controller's Index Action");
+        }
+
+        public IActionResult New()
+        {
+            return Content("This is the books controller's new Action");
+        }
+
+
+    }
+}
