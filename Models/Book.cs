@@ -1,7 +1,9 @@
 using System;
 
 namespace Fisher.Bookstore.Models{
-    public class Bookstore{
+    public class Book{
+    
+
         public int BookId {get; set;}
 
         public string Title { get; set;}
